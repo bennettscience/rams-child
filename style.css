@@ -54,6 +54,11 @@ html { margin-top: 0 !important }
 div.no-featured {
 	margin-top: 6% !important;
 }
+
+.post-title {
+	text-align: center;
+	border-bottom: 1px solid #d4d4d4;
+}
 /******* POPUPS **********/
 .pum-theme-66, .pum-theme-default-theme {
 	background-color: rgba( 63, 63, 63, 0.79 );
