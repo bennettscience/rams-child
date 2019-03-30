@@ -1,6 +1,13 @@
 <?php get_header(); ?>
+<?php if( !has_post_thumbnail() ) : ?>
 
-<div class="collection">
+	<div class="content no-featured">
+
+<?php else : ?>
+
+	<div class="content">
+
+<?php endif; ?>
 
     <div class="post-inner wide">
 

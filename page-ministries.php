@@ -1,6 +1,16 @@
 <?php get_header(); ?>
 
-<div class="collection post single-post">
+<?php if( !has_post_thumbnail() ) : ?>
+
+	<div class="content no-featured">
+
+<?php else : ?>
+
+	<div class="content">
+
+<?php endif; ?>
+
+<div class="post single-post">
 
     <div class="post-inner">
 
